@@ -1,12 +1,17 @@
 <html>
   <head> 
-
+    <title>~~~ goats ~~~</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
   </head>
+
   <body>
     <h1>
       Pickles
     </h1>
+    <div id="photos"></div>
 
     <img src="http://andascarygoat.com/images/scarygoat-index_03.jpg" title="Ze goat" alt="It's a goat, man"></img>
+    <script src="http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=4b14a0d06d79ae1cf8fafec76f32be4d&format=json&tags=goat&per_page=500&jsoncallback=goats"></script>
   </body>
 </html>
