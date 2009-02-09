@@ -1,5 +1,4 @@
 function goats(flickr_object) {
-  console.log(flickr_object);
   var photos = $('#photos');
   $.each(flickr_object.photos.photo, function(index, photo) {
     if ( index % 50 == 0 ) {
