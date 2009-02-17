@@ -10,7 +10,7 @@ function goats(flickr_object) {
 
   function goatImg() {
     for ( service in urls ) {
-      var div = $('<div class="goat"><a class="' + service +'" href="' + urls[service] + '">&nbsp;</a></div>');
+      var div = $('<div class="goat"><a class="' + service +'" href="' + urls[service] + '"></a></div>');
       delete urls[service];
       return div;
     }
