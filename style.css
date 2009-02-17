@@ -3,7 +3,55 @@ body {
   margin: 0px;
 }
 
+img, div {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
 #content {
   color: pink;
   z-index: 2;
+}
+
+div.goat {
+  background-image: url(images/goat.png);
+  height: 75px;
+  width: 75px;
+}
+
+div.goat a {
+  display: block;
+  background-position: 0px 100px;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+}
+
+div.goat a:hover {
+  background-position: 0px 0px;
+}
+
+div.goat a.delicious {
+  background-image: url('images/delicious.png');
+}
+
+div.goat a.flickr {
+  background-image: url('images/flickr.png');
+}
+
+div.goat a.github {
+  background-image: url('images/github.png');
+}
+
+div.goat a.lastfm {
+  background-image: url('images/lastfm.png');
+}
+
+div.goat a.twitter {
+  background-image: url('images/twitter.png');
+}
+
+div.goat a.web {
+  background-image: url('images/web.png');
 }
